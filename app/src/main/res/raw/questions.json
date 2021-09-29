@@ -1,0 +1,62 @@
+[
+  {
+    "question" : "Preston Brooks beat up Charles Sumner with a cane until it broke.\n",
+    "answer" : true
+  },
+  {
+    "question" : "Alexander Stephens gave the Cornerstone speech.",
+    "answer" : true
+  },
+  {
+    "question" : "Abraham Lincoln was the first president of the confederacy.\n",
+    "answer" : false
+  },
+  {
+    "question" : "The seventeenth amendment gave people the right to directly vote for senators.",
+    "answer" : true
+  },
+  {
+    "question" : "Andrew Carnegie was an oil tycoon.",
+    "answer" : false
+  },
+  {
+    "question" : "Before the Declaration of Independence, the colonists wanted to make amends with Britain.\n",
+    "answer" : true
+  },
+  {
+    "question" : "Jane Addams established the Hull House.",
+    "answer" : true
+  },
+  {
+    "question" : "The battle of Yorktown was the first battle of the revolutionary war.\n",
+    "answer" : false
+  },
+  {
+    "question" : "Nixon was impeached.",
+    "answer" : false
+  },
+  {
+    "question" : "McCulloch vs Maryland established the doctrine of judicial review.\n",
+    "answer" : false
+  },
+  {
+    "question" : "The judiciary act was passed in 1789.",
+    "answer" : true
+  },
+  {
+    "question" : "John Jay was the first Chief Justice of the Supreme Court. ",
+    "answer" : true
+  },
+  {
+    "question" : "The War Industries Board was headed by Bernard Baruch.",
+    "answer" : true
+  },
+  {
+    "question" : "Lyndon B Johnson’s social agenda was called the New Frontier.\n",
+    "answer" : false
+  },
+  {
+    "question" : "President Ford pulled the last troops out of Vietnam.",
+    "answer" : false
+  }
+]
