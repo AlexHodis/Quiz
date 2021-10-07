@@ -1,0 +1,62 @@
+[
+    {
+      "question" : "Preston Brooks golpeó a Charles Sumner con un bastón hasta que se rompió.",
+      "answer" : true
+    },
+    {
+      "question" : "Alexander Stephens pronunció el discurso de Cornerstone.",
+      "answer" : true
+    },
+    {
+      "question" : "Abraham Lincoln fue el primer presidente de la confederación.\n",
+      "answer" : false
+    },
+    {
+      "question" : "La decimoséptima enmienda otorgó a las personas el derecho a votar directamente por los senadores.\n",
+      "answer" : true
+    },
+    {
+      "question" : "Andrew Carnegie fue un magnate del petróleo.\n",
+      "answer" : false
+    },
+    {
+      "question" : "Antes de la Declaración de Independencia, los colonos querían hacer las paces con Gran Bretaña.\n",
+      "answer" : true
+    },
+    {
+      "question" : "Jane Addams estableció la Casa Hull.",
+      "answer" : true
+    },
+    {
+      "question" : "La batalla de Yorktown fue la primera batalla de la guerra revolucionaria.",
+      "answer" : false
+    },
+    {
+      "question" : "Nixon fue acusado.\n",
+      "answer" : false
+    },
+    {
+      "question" : "McCulloch vs Maryland estableció la doctrina de la revisión judicial.\n",
+      "answer" : false
+    },
+    {
+      "question" : "La ley judicial se aprobó en 1789.",
+      "answer" : true
+    },
+    {
+      "question" : "John Jay fue el primer presidente del Tribunal Supremo.\n",
+      "answer" : true
+    },
+    {
+      "question" : "La Junta de Industrias de Guerra estaba dirigida por Bernard Baruch.",
+      "answer" : true
+    },
+    {
+      "question" : "La agenda social de Lyndon B Johnson se llamó la Nueva Frontera.",
+      "answer" : false
+    },
+    {
+      "question" : "El presidente Ford sacó las últimas tropas de Vietnam.\n",
+      "answer" : false
+    }
+]
