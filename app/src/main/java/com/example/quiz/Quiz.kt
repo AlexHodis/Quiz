@@ -1,24 +1,22 @@
 package com.example.quiz
 
-import android.graphics.Color
 class Quiz(val quest: List<MainActivity.Question>){
-    var questionNum = 0
-    var points = 0
+    private var questionNum = 0
+    private var points = 0
 
     fun checkAnswer(answer : Boolean) : Boolean {
-        if (answer == quest.get(questionNum).answer){
+        return if (answer == quest[questionNum].answer){
             points++
             questionNum++
-        return answer
-    }
-        else{
+            true
+        } else{
             questionNum++
-            return false
+            false
         }
     }
 
     fun updateQuestion() : MainActivity.Question {
-        return quest.get(questionNum)
+        return quest[questionNum]
     }
 
     fun moreQuestions() : Boolean{
@@ -28,5 +26,4 @@ class Quiz(val quest: List<MainActivity.Question>){
     fun score() : Int{
         return points
     }
-
     }

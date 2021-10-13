@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examen de Historia Americana</string>
+    <string name="main_true">Cierto</string>
+    <string name="main_false">Falso</string>
+    <string name="main_points">puntos</string>
+    <string name="correct_response">¡Correcto!</string>
+    <string name="main_end">¡Felicidades! Tu tienes</string>
+    <string name="main_point">Puntos:</string>
+</resources>

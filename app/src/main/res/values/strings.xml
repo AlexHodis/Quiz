@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Quiz</string>
+    <string name="app_name">American History Quiz</string>
+    <string name="main_true">True</string>
+    <string name="main_false">False</string>
+    <string name="main_points">points</string>
+    <string name="correct_response">Correct!</string>
+    <string name="main_end">Congratulations! You got</string>
+    <string name="main_point">Points:</string>
+    //to call this do resources.getString(R.string.correct_response)
 </resources>
