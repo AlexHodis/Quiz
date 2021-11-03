@@ -13,7 +13,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
 class MainActivity : AppCompatActivity() {
-    private val tag = "MainActivity"
+    private val TAG = "MainActivity"
     lateinit var quiz: Quiz
 
     private lateinit var trueButton: Button
@@ -36,12 +36,12 @@ class MainActivity : AppCompatActivity() {
         val jsonText = inputStream.bufferedReader().use {
             it.readText()
         }
-        Log.d(tag,"onCreate: $jsonText")
+        Log.d(TAG,"onCreate: $jsonText")
 
         val gson = Gson()
         val type = object : TypeToken<List<Question>>() { }.type
         val questions = gson.fromJson<List<Question>>(jsonText, type)
-        Log.d(tag, "onCreate: \n${questions}")
+        Log.d(TAG, "onCreate: \n${questions}")
 
         quiz = Quiz(questions)
 
@@ -77,7 +77,8 @@ class MainActivity : AppCompatActivity() {
             trueButton.visibility = View.GONE
             falseButton.visibility = View.GONE
             pointTracker.visibility = View.GONE
-            text.text = resources.getString(R.string.main_end) + " " + quiz.score() + " " + resources.getString(R.string.main_points) + "!"
+            text.text = resources.getString(R.string.main_end) + " " + quiz.score() + " " +
+                    resources.getString(R.string.main_points) + "!"
     }
 
     @SuppressLint("SetTextI18n")
@@ -86,18 +87,16 @@ class MainActivity : AppCompatActivity() {
             end()
         }
         else {
-            pointTracker.text = resources.getString(R.string.main_point)+" " + quiz.score()
+            pointTracker.text = resources.getString(R.string.main_point)+ " " + quiz.score()
             text.text = quiz.updateQuestion().question
         }
     }
 
-    data class Question(val question: String , val answer: Boolean)
-
     private fun wireWidgets() {
         trueButton = findViewById(R.id.button_main_true)
         falseButton = findViewById(R.id.button_main_false)
-        text = findViewById(R.id.TextView_main_question)
+        text = findViewById(R.id.textView_main_question)
         pointTracker = findViewById(R.id.textView_main_points)
-        backgroundColor = findViewById(R.id.FrameLayout_main_color)
+        backgroundColor = findViewById(R.id.frameLayout_main_color)
     }
 }

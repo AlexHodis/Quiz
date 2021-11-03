@@ -5,6 +5,6 @@
     <string name="main_false">Falso</string>
     <string name="main_points">puntos</string>
     <string name="correct_response">¡Correcto!</string>
-    <string name="main_end">¡Felicidades! Tu tienes</string>
+    <string name="main_end">¡Felicidades! ¡Tu tienes</string>
     <string name="main_point">Puntos:</string>
 </resources>

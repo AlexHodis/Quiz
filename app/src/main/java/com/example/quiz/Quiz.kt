@@ -1,6 +1,6 @@
 package com.example.quiz
 
-class Quiz(val quest: List<MainActivity.Question>){
+class Quiz(val quest: List<Question>){
     private var questionNum = 0
     private var points = 0
 
@@ -15,7 +15,7 @@ class Quiz(val quest: List<MainActivity.Question>){
         }
     }
 
-    fun updateQuestion() : MainActivity.Question {
+    fun updateQuestion() : Question {
         return quest[questionNum]
     }
 
@@ -26,4 +26,4 @@ class Quiz(val quest: List<MainActivity.Question>){
     fun score() : Int{
         return points
     }
-    }
+}
